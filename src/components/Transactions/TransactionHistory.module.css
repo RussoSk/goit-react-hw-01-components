@@ -1,0 +1,30 @@
+.transactionHistory{
+    margin: auto;
+}
+
+
+table thead th {
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	padding: 10px 15px;
+	background: rgb(68, 71, 110);
+	font-size: 14px;
+    color: white;
+}
+
+table tbody td {
+
+    vertical-align: top;
+    width: 100px;
+
+	text-align: center;
+	border: none;
+	padding: 10px 15px;
+	
+    font-size: 14px;
+    color: rgb(58, 58, 58);
+}
+table tbody tr:nth-child(even){
+	background: #e2e0e0;
+}
